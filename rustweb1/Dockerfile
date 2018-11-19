@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update
 RUN apt-get install curl -y
+RUN apt-get install gcc -y
 RUN mkdir /tmp/rustup
 COPY rustup /tmp/rustup/
 RUN /tmp/rustup/rustup -y

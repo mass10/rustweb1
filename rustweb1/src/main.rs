@@ -21,6 +21,6 @@ fn main() {
 		}
 	});
 
-	server.listen("127.0.0.1:6767");
+	let _result = server.listen("0.0.0.0:6767");
 }
 

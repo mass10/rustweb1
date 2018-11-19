@@ -3,5 +3,9 @@ name = "rustweb1"
 version = "0.1.0"
 authors = ["mass10 <mass10.github@gmail.com>"]
 
+[[bin]]
+name = "rustweb1"
+path = "src/main.rs"
+
 [dependencies]
 nickel = "*"
