@@ -1,8 +1,7 @@
 version: "3"
 services:
-  main:
-    build: rustweb1
-    image: rustweb1
-    ports:
-      - "6767:6767"
-
+    main:
+        build: rustweb1
+        image: rustweb1
+        ports:
+            - "6767:6767"
